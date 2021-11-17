@@ -2,6 +2,8 @@
 
 ## **Fedily**
 
+[!Fedily Logo](media/fedily_logo.svg)
+
 *Fediverse and more, universally*
 
 ### 1) Own your data and explicitly choose what is shared threw each registered third-party account
