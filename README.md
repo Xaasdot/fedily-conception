@@ -2,7 +2,7 @@
 
 ## **Fedily**
 
-[!Fedily Logo](media/fedily_logo.svg)
+![Fedily Logo](media/fedily_logo.svg)
 
 *Fediverse and more, universally*
 
