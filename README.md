@@ -5,13 +5,10 @@
 ![Fedily Logo](media/fedily_logo.svg)
 
 *Fediverse and more, universally*
-*Your online identity, your contact repository, your tree view page, your password manager and all your social media and third-party services inside **one** advanced and secured FOSS solution*
-*Own your data and share securely and precisely what you want with your contacts*
-*No tracking, no private info leaking, only led by the community, for you* 
 
 ### 1) Own your data and explicitly choose what is shared threw each registered third-party account
 
-
+*Your online identity, your contact repository, your tree view page, your password manager and all your social media and third-party services inside **one** advanced and secured FOSS solution*
 
    * Federated secured server (encrypted data : passphrase)
    * Custom secured smartphone app and webbrowser add-on client (encrypted data : passphrase)
@@ -55,6 +52,7 @@
       * Option to lock the view of a chosen profile with a password
       * Based on a profile, suggest automatically accounts
 
+*Own your data and share securely and precisely what you want with your contacts*
 
 ### 2) Link several accounts and follow your contact accounts
 
@@ -63,3 +61,9 @@
    * Choose who sees what in your contacts
    * Watch the federated feed your contacts want you to see
    * Synchronise all your social media in one thanks to linked accounts (_only works with supported third party services, see [the list here](thrid_party_services_list.md)_)
+
+*No tracking, no private info leaking, only led by the community, for you* 
+
+## License
+
+GPLv3
