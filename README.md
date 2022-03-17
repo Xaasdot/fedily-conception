@@ -66,7 +66,15 @@
 
 ## Steps
 
-* Create KeepassX plugin for Profile handling. You can create as many profiles/identities as you want. One profile has a name/pseudo, a unique key and allows to link selected inputs of your _kdbx_ one one unique page defining your identity. Each input can be set as private or public on your profile and can be tagged with custom tags. Each input of a profile page can be renamed from the _kdbx_ database while keeping the link between inputs. Edits on the database directly influence the profile pages in which inputs are linked.
+### KeepassX Profile plugin
+* Create KeepassX plugin for Profile handling. You can create as many profiles/identities as you want. One profile has a name/pseudo, a unique key and allows to link selected inputs of your _kdbx_ one one unique page defining your identity. Each input can be set as private or public on your profile and can be tagged with custom tags. Each input of a profile page can be renamed from the _kdbx_ database while keeping the link between inputs. Edits on the database directly influence the profile pages in which inputs are linked. Then you can add on one profile VCard, profile photo, and some other information not linked to your _kdbx_ database. 
+
+### Keyoxide, OpenID, SSOwat, LDAP, CardDAV  fork
+* See how [Keyoxide](keyoxide.org) works and perhaps fork cryptographic algorithms. 
+* Create a web server federated app in which you can import profiles from Keepass Profile plugin. One account for multiple profiles. Each profile has a username and the same passphrase can be used for all profiles on the same account. 
+* The app allows to link each of your profiles with other federated users. The link can be tagged as friendship, collegue... Then you can choose individually what information to show for each kind of link. 
+* The idea is a "Connect with Fedily" button threw a standardized API that web services can easily implement. Then depending on what the user A set on his profile, the web service will be able to directly add followers/friends in their social sphere by seeing only users of their services also linked to the user A on Fedily. 
+* The button will allow to connect or register. The web service will only see information allowed by the user A and the user MUST be able to connect to the web service without Fedily if wished. ("password generation/uid defined by the profile" combination) The _kdbx_ database attached to the Profile plugin can be stored on the Fedily server or locally. For ease, storing on the Fedily server in recommended but for specific security awareness locally will also be implemented. 
 
 ## License
 
