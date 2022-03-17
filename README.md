@@ -64,6 +64,10 @@
 
 *No tracking, no private info leaking, only led by the community, for you* 
 
+## Steps
+
+* Create KeepassX plugin for Profile handling. You can create as many profiles/identities as you want. One profile has a name/pseudo, a unique key and allows to link selected inputs of your _kdbx_ one one unique page defining your identity. Each input can be set as private or public on your profile and can be tagged with custom tags. Each input of a profile page can be renamed from the _kdbx_ database while keeping the link between inputs. Edits on the database directly influence the profile pages in which inputs are linked.
+
 ## License
 
 GPLv3
